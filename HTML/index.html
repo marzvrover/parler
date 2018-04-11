@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Parler v0.3.4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scaleable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!--<link href="http://fonts.googleapis.com/css?family=Advent+Pro:400,100,200,300,500,600,700" rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css' />-->
+        <link rel="stylesheet" type="text/css" href="/CSS/main.css" />
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="/JavaScript/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="/JavaScript/popup.js"></script>
+        <script type="text/javascript" src="/JavaScript/main.js"></script>
+        <!--<script> //Google Analytics
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-46728868-4', 'auto');
+            ga('send', 'pageview');
+        </script>-->
+
+    </head>
+    <body>
+        <div id="popups" style="display: block;"></div>
+        <div id="wrapper">
+            <div id="members">
+            </div>
+            <div id="messages">
+
+            </div>
+            <div id="input">
+                <textarea id="message" class="inputC" placeholder="Type a message..."></textarea>
+                <span id="messageBtn" class="inputC">SEND</span>
+            </div>
+        </div>
+    </body>
+</html>
