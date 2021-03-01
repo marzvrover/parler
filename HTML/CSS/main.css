@@ -1,0 +1,128 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #FAFAFA;
+    height: 100%;
+    font-family: 'Advent Pro', sans-serif;
+}
+#wrapper {
+    height: 100%;
+}
+#members {
+    height: 100%;
+    width: 200px;
+    border-right: 2px solid #CCCCCC;
+    position: fixed;
+    background-color: #FAFAFA;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.members {
+    display: block;
+}
+#messages {
+    margin-left: 210px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#messages .msg {
+    display: block;
+    border-bottom: 1px dashed #CCCCCC;
+}
+#message .msg:last-of-type {
+    border-bottom: none;
+}
+#input {
+    margin-left: 212px;
+    padding: 0px;
+    height: 45px;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-top: 2px solid #CCCCCC;
+}
+#message {
+    border: none;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    float: left;
+    resize: none;
+    font-size: 1.2em;
+    border-radius: 0px 0px;
+    background-color: #FAFAFA;
+}
+.msg {
+    font-family: 'Source Code Pro', serif;
+}
+.msg strong {
+    font-family: 'Advent Pro', sans-serif;
+}
+#messageBtn {
+    float: right;
+    width: 70px;
+    text-align: center;
+    padding-top: 15px;
+    color: #FAFAFA;
+    margin-top: -2px;
+    background-color: #000000;
+    font-weight: 700;
+}
+#messageBtn:hover {
+    cursor: pointer;
+}
+@media(max-width: 480px) {
+    #members {
+        width: 50px;
+    }
+    #messages {
+        margin-left: 50px;
+    }
+    #input {
+        margin-left: 0px;
+    }
+    html {
+        font-size: .7em;
+    }
+}
+
+
+/*
+ * POPUPS
+ */
+#popups {
+    display: none;
+}
+.popupWrapperBackground {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 47;
+    background-color: rgba(0,0,0,.8);
+}
+.popupWrapper {
+    position: fixed;
+    top: 50%;
+    min-height: 200px;
+    width: 100%;
+}
+.popup {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    max-width: 90%;
+    width: 500px;
+    height: 135px;
+    padding-top: 65px;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 0px 200px #FFFFFF;
+}
+.popup_okay {
+    margin: 0 auto;
+    margin-top: 5px;
+}
+ /*login*/

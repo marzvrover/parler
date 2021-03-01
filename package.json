@@ -1,0 +1,15 @@
+{
+    "name": "Parler",
+    "version": "0.3.4",
+    "private": "true",
+    "description": "An amazingly awesome chat service!",
+    "author": "Matthew Dooley <Matthew@Dooley.xyz>",
+    "dependencies": {
+        "express": "4.11.x",
+        "socket.io": "1.0.x",
+        "node-redis": "0.1.x"
+    },
+    "scripts" : {
+        "start" : "app.js"
+    }
+}
