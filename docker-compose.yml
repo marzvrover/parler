@@ -2,12 +2,12 @@ version: '3.1'
 
 services:
         db:
-            image: redis
+            image: marzvrover/redis:2.8.18
             ports:
                 - "6379:6379"
         parler:
             build: .
             ports:
-                - "8080:8080"
+                - "8080:80"
             depends_on:
               - db
